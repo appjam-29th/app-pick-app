@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppTypography {
+
+  const AppTypography();
   // Font family
   static const String _fontFamily = 'Pretendard';
 
@@ -21,7 +23,7 @@ class AppTypography {
   static const double _headline2FontSize = 18;
   static const double _bodyFontSize = 16;
   static const double _labelFontSize = 14;
-  static const double _captionFontSize = 12;
+  static const double _captionFontSize = 10;
 
   // Display1
   static const TextStyle display1Bold = TextStyle(

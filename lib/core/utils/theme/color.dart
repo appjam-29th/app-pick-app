@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppColor {
+  const AppColor();
+
   // Primary Colors
   static const Color primaryNormal = Color(0xFF1E3A5F);
   static const Color primaryAlternative = Color(0xFF738193);
@@ -48,7 +50,10 @@ class AppColor {
   // Background Color
   static const Color backgroundNormal = Color(0xffffffff);
   static const Color backgroundNeutral = Color(0xfffcfcfd);
-  static const Color backgroundAlternative= Color(0xfffcfcfd);
+  static const Color backgroundAlternative = Color(0xfffcfcfd);
 
-
+  // elevator Color
+  static const Color elevationBlack1 = Color(0x05000000);
+  static const Color elevationBlack2 = Color(0x0A000000);
+  static const Color elevationBlack3 = Color(0x0A000000);
 }
